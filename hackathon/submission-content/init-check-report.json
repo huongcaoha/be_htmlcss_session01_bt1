@@ -1,0 +1,44 @@
+{
+  "metadata": {
+    "hostname": "localhost",
+    "timestamp": "2026-07-31T04:21:10.008Z",
+    "os_info": {
+      "platform": "linux",
+      "release": "6.8.0-136-generic",
+      "distro": "Ubuntu 24.04.4 LTS"
+    }
+  },
+  "checks": [
+    {
+      "id": "hostname_check",
+      "label": "Hostname chưa được cấu hình cá nhân hóa",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "ssh_port",
+      "label": "Cổng SSH mặc định là 22",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "ufw_status",
+      "label": "Tường lửa UFW đang tắt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "nginx_custom_config",
+      "label": "Nginx chưa có cấu hình tùy chỉnh",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "id": "systemd_services",
+      "label": "Không có Systemd service tùy chỉnh",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "all_passed": true
+}
